@@ -1,0 +1,60 @@
+.wwise-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.wwise-logo-img {
+  display: block;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.wwise-logo--default .wwise-logo-img {
+  width: 180px;
+  max-width: 100%;
+}
+
+.wwise-logo--sidebar .wwise-logo-img {
+  width: 140px;
+}
+
+.wwise-logo--auth .wwise-logo-img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.wwise-logo--panel .wwise-logo-img {
+  width: 220px;
+  max-width: 100%;
+}
+
+.wwise-logo--compact .wwise-logo-img {
+  width: 120px;
+}
+
+.wwise-logo-tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  width: 100%;
+}
+
+.wwise-logo-divider {
+  width: 24px;
+  height: 2px;
+  background: var(--primary);
+  flex-shrink: 0;
+}
+
+.wwise-logo-tagline span:last-child {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}

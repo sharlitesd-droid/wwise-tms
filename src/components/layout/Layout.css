@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 280px;
+  padding: 1.5rem 3rem 2.5rem;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(236, 72, 153, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(236, 72, 153, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.main-content .page-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 0.875rem 1rem calc(5.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}

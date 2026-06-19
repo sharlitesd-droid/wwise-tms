@@ -1,0 +1,138 @@
+.users-page {
+  max-width: 1200px;
+}
+
+.users-table-wrap {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.users-table th,
+.users-table td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.users-table th {
+  background: var(--sidebar-bg);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.users-table td {
+  color: var(--text-primary);
+}
+
+.users-table tbody tr:hover td {
+  background: var(--primary-light);
+}
+
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.user-avatar-sm {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px dotted var(--primary);
+  background: var(--primary-light);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.table-cell-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.table-cell-icon svg {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.role-select {
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  background: var(--surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.role-select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.role-legend {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.role-legend h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.role-legend ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.role-legend li {
+  padding: 0.75rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.role-legend li strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .users-table-wrap {
+    overflow-x: auto;
+  }
+}
