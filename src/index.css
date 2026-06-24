@@ -3,31 +3,31 @@
 
 :root {
   /* Pink primary */
-  --primary: #ec4899;
-  --primary-dark: #db2777;
-  --primary-light: rgba(236, 72, 153, 0.1);
-  --accent: #f472b6;
-  --accent-dark: #ec4899;
+  --primary: #d61780;
+  --primary-dark: #e91767;
+  --primary-light: rgba(36, 37, 146, 0.1);
+  --accent: #b1236a;
+  --accent-dark: #ec48c3;
 
   /* Surfaces */
-  --bg: #faf5f8;
-  --surface: #ffffff;
-  --surface-hover: #fdf2f8;
-  --sidebar-bg: #18101a;
-  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --bg: #b8a2a2fd;
+  --surface: #f6e9f8;
+  --surface-hover: #d4d2e0;
+  --sidebar-bg: #e7e6f1;
+  --sidebar-border: rgba(3, 9, 65, 0.08);
 
   /* Text */
-  --text-primary: #1a0a14;
-  --text-muted: #6b5a65;
-  --text-on-dark: rgba(255, 255, 255, 0.85);
-  --text-on-dark-muted: rgba(255, 255, 255, 0.45);
+  --text-primary: #a0a1b1;
+  --text-muted: #e47bee;
+  --text-on-dark: rgba(235, 230, 245, 0.85);
+  --text-on-dark-muted: rgba(255, 254, 255, 0.45);
 
   /* Borders & effects */
-  --border: #eadde6;
-  --border-strong: #ec4899;
-  --danger: #dc2626;
-  --success: #059669;
-  --warning: #d97706;
+  --border: #f3ecf3;
+  --border-strong: #c91584;
+  --danger: #d33030;
+  --success: #1ec527;
+  --warning: #d16923;
 
   /* Sharp corners — cards & buttons */
   --radius: 0;
@@ -37,8 +37,8 @@
   --radius-avatar: 50%;
   --icon-circle-border: 2px dotted;
 
-  --shadow: 4px 4px 0 rgba(236, 72, 153, 0.1);
-  --shadow-lg: 8px 8px 0 rgba(236, 72, 153, 0.14);
+  --shadow: 4px 4px 0 rgba(12, 10, 122, 0.1);
+  --shadow-lg: 8px 8px 0 rgba(15, 6, 136, 0.14);
   --font: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
 
@@ -97,13 +97,13 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
   background: var(--primary);
   color: white;
-  box-shadow: 4px 4px 0 rgba(236, 72, 153, 0.3);
+  box-shadow: 4px 4px 0 rgba(3, 5, 104, 0.3);
 }
 
 .btn-primary:hover:not(:disabled) {
   background: var(--primary-dark);
   transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0 rgba(236, 72, 153, 0.35);
+  box-shadow: 5px 5px 0 rgba(15, 13, 124, 0.35);
 }
 
 .btn-primary:active:not(:disabled) {
@@ -143,21 +143,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .status-pending {
-  background: rgba(217, 119, 6, 0.1);
-  color: #b45309;
-  border-color: rgba(217, 119, 6, 0.25);
+  background: rgba(34, 8, 148, 0.1);
+  color: #0e0868;
+  border-color: rgba(4, 12, 119, 0.25);
 }
 
 .status-in-progress {
-  background: rgba(236, 72, 153, 0.1);
-  color: #db2777;
-  border-color: rgba(236, 72, 153, 0.3);
+  background: rgba(5, 27, 128, 0.1);
+  color: #06046e;
+  border-color: rgba(14, 5, 102, 0.3);
 }
 
 .status-completed {
   background: rgba(5, 150, 105, 0.1);
-  color: #047857;
-  border-color: rgba(5, 150, 105, 0.25);
+  color: #040a63;
+  border-color: rgba(25, 5, 112, 0.25);
 }
 
 .form-actions {
