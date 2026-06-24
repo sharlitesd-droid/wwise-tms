@@ -3,14 +3,14 @@
 
 :root {
   /* Pink primary */
-  --primary: #d61780;
-  --primary-dark: #e91767;
+  --primary: #3f23da;
+  --primary-dark: #4936f8a4;
   --primary-light: rgba(36, 37, 146, 0.1);
-  --accent: #b1236a;
-  --accent-dark: #ec48c3;
+  --accent: #522dd4;
+  --accent-dark: #3f42f3;
 
   /* Surfaces */
-  --bg: #b8a2a2fd;
+  --bg: npm#4953e6fd;
   --surface: #f6e9f8;
   --surface-hover: #d4d2e0;
   --sidebar-bg: #e7e6f1;
@@ -18,16 +18,16 @@
 
   /* Text */
   --text-primary: #a0a1b1;
-  --text-muted: #e47bee;
+  --text-muted: #6b16f3;
   --text-on-dark: rgba(235, 230, 245, 0.85);
-  --text-on-dark-muted: rgba(255, 254, 255, 0.45);
+  --text-on-dark-muted: rgba(91, 27, 238, 0.808);
 
   /* Borders & effects */
-  --border: #f3ecf3;
-  --border-strong: #c91584;
-  --danger: #d33030;
-  --success: #1ec527;
-  --warning: #d16923;
+  --border: #f0e9e9;
+  --border-strong: #2ea4db;
+  --danger: #653bd8;
+  --success: #352ea0;
+  --warning: #3423d1;
 
   /* Sharp corners — cards & buttons */
   --radius: 0;
