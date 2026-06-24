@@ -10,8 +10,8 @@
   gap: 0.625rem;
   margin: -0.5rem 0 1.25rem;
   padding: 0.75rem 1rem;
-  background: rgba(236, 72, 153, 0.08);
-  border: 1px solid rgba(236, 72, 153, 0.25);
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.25);
   border-radius: 999px;
   font-size: 0.8125rem;
   color: var(--text-secondary);

@@ -2,32 +2,32 @@
 @import './styles/mobile.css';
 
 :root {
-  /* Pink primary */
-  --primary: #3f23da;
-  --primary-dark: #4936f8a4;
-  --primary-light: rgba(36, 37, 146, 0.1);
-  --accent: #522dd4;
-  --accent-dark: #3f42f3;
+  /* Blue primary */
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --primary-light: rgba(37, 99, 235, 0.1);
+  --accent: #0284c7;
+  --accent-dark: #1d4ed8;
 
   /* Surfaces */
-  --bg: npm#4953e6fd;
-  --surface: #f6e9f8;
-  --surface-hover: #d4d2e0;
-  --sidebar-bg: #e7e6f1;
-  --sidebar-border: rgba(3, 9, 65, 0.08);
+  --bg: #f0f9ff;
+  --surface: #e0f2fe;
+  --surface-hover: #cffafe;
+  --sidebar-bg: #dbeafe;
+  --sidebar-border: rgba(3, 102, 214, 0.08);
 
   /* Text */
-  --text-primary: #a0a1b1;
-  --text-muted: #6b16f3;
-  --text-on-dark: rgba(235, 230, 245, 0.85);
-  --text-on-dark-muted: rgba(91, 27, 238, 0.808);
+  --text-primary: #0c4a6e;
+  --text-muted: #0369a1;
+  --text-on-dark: rgba(224, 242, 254, 0.95);
+  --text-on-dark-muted: rgba(15, 118, 190, 0.85);
 
   /* Borders & effects */
-  --border: #f0e9e9;
-  --border-strong: #2ea4db;
-  --danger: #653bd8;
-  --success: #352ea0;
-  --warning: #3423d1;
+  --border: #e0f2fe;
+  --border-strong: #0284c7;
+  --danger: #dc2626;
+  --success: #059669;
+  --warning: #f59e0b;
 
   /* Sharp corners — cards & buttons */
   --radius: 0;
@@ -37,8 +37,8 @@
   --radius-avatar: 50%;
   --icon-circle-border: 2px dotted;
 
-  --shadow: 4px 4px 0 rgba(12, 10, 122, 0.1);
-  --shadow-lg: 8px 8px 0 rgba(15, 6, 136, 0.14);
+  --shadow: 4px 4px 0 rgba(37, 99, 235, 0.1);
+  --shadow-lg: 8px 8px 0 rgba(30, 64, 175, 0.14);
   --font: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
 
@@ -97,18 +97,18 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
   background: var(--primary);
   color: white;
-  box-shadow: 4px 4px 0 rgba(3, 5, 104, 0.3);
+  box-shadow: 4px 4px 0 rgba(37, 99, 235, 0.3);
 }
 
 .btn-primary:hover:not(:disabled) {
   background: var(--primary-dark);
   transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0 rgba(15, 13, 124, 0.35);
+  box-shadow: 5px 5px 0 rgba(30, 64, 175, 0.35);
 }
 
 .btn-primary:active:not(:disabled) {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 rgba(236, 72, 153, 0.2);
+  box-shadow: 2px 2px 0 rgba(37, 99, 235, 0.2);
 }
 
 .btn-secondary {
@@ -143,21 +143,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .status-pending {
-  background: rgba(34, 8, 148, 0.1);
-  color: #0e0868;
-  border-color: rgba(4, 12, 119, 0.25);
+  background: rgba(37, 99, 235, 0.1);
+  color: #1e40af;
+  border-color: rgba(37, 99, 235, 0.25);
 }
 
 .status-in-progress {
-  background: rgba(5, 27, 128, 0.1);
-  color: #06046e;
-  border-color: rgba(14, 5, 102, 0.3);
+  background: rgba(2, 132, 199, 0.1);
+  color: #0c4a6e;
+  border-color: rgba(2, 132, 199, 0.3);
 }
 
 .status-completed {
   background: rgba(5, 150, 105, 0.1);
-  color: #040a63;
-  border-color: rgba(25, 5, 112, 0.25);
+  color: #065f46;
+  border-color: rgba(5, 150, 105, 0.25);
 }
 
 .form-actions {

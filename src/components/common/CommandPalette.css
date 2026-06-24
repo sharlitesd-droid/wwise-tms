@@ -16,7 +16,7 @@
   background: var(--surface);
   border: 2px solid var(--border);
   border-radius: var(--radius-lg);
-  box-shadow: 12px 12px 0 rgba(236, 72, 153, 0.12);
+  box-shadow: 12px 12px 0 rgba(37, 99, 235, 0.12);
   overflow: hidden;
 }
 

@@ -201,7 +201,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--primary);
-  text-shadow: 0 2px 20px rgba(236, 72, 153, 0.3);
+  text-shadow: 0 2px 20px rgba(37, 99, 235, 0.3);
   animation: celebrate-pop 0.5s ease-out;
 }
 

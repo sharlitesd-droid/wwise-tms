@@ -16,8 +16,8 @@
 }
 
 .top-bar-scrolled {
-  box-shadow: 0 4px 24px rgba(236, 72, 153, 0.08);
-  border-bottom-color: rgba(236, 72, 153, 0.15);
+  box-shadow: 0 4px 24px rgba(37, 99, 235, 0.08);
+  border-bottom-color: rgba(37, 99, 235, 0.15);
   background: rgba(250, 245, 248, 0.95);
 }
 
@@ -156,7 +156,7 @@
 .top-bar-day.active {
   background: var(--primary);
   color: white;
-  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.35);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
   transform: scale(1.05);
 }
 
